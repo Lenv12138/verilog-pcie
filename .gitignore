@@ -3,4 +3,6 @@
 *.pyc
 *.vvp
 *.kate-swp
-
+*.log
+*/*.auto*
+sim_build
