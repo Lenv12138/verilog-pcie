@@ -572,7 +572,7 @@ async def run_test_msix(dut, idle_inserter=None, backpressure_inserter=None):
 def cycle_pause():
     return itertools.cycle([1, 1, 1, 0])
 
-
+# main函数开始
 if cocotb.SIM_NAME:
 
     for test in [
